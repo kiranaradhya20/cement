@@ -9,10 +9,6 @@ class dataTransform:
      """
                This class shall be used for transforming the Good Raw Training Data before loading it in Database!!.
 
-               Written By: iNeuron Intelligence
-               Version: 1.0
-               Revisions: None
-
                """
 
      def __init__(self):
@@ -26,10 +22,6 @@ class dataTransform:
                                            Description: This method converts all the columns with string datatype such that
                                                        each value for that column is enclosed in quotes. This is done
                                                        to avoid the error while inserting string values in table as varchar.
-
-                                            Written By: iNeuron Intelligence
-                                           Version: 1.0
-                                           Revisions: None
 
                                                    """
 
@@ -63,10 +55,6 @@ class dataTransform:
      #      """
      #                                                Method Name: addQuotesToStringValuesInColumn
      #                                                Description: This method changing the column names by replacing the '-'.
-     #
-     #                                                 Written By: iNeuron Intelligence
-     #                                                Version: 1.0
-     #                                                Revisions: None
      #
      #                                                        """
      #      log_file = open("Training_Logs/removeHyphenFromColumnNames.txt", 'a+')
